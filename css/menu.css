@@ -27,7 +27,7 @@ header nav .nav1{
   background-color: #FFFFFF;
   position: absolute;
   margin-right: 8px;
-  margin-top: 5px;
+  margin-top: 3px;
   overflow: auto;
   direction: ltr;
   display: none;
@@ -35,6 +35,9 @@ header nav .nav1{
   padding-right: 0;
   box-shadow: 0px 10px 10px #2b2b2b;
   border-radius: 15px;
+}
+.menu{
+  height: 35px;
 }
 .nav1 .menu:hover .submenu{
   display: block;
