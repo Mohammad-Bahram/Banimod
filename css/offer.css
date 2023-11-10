@@ -1,0 +1,41 @@
+.offer{
+    width: inherit;
+    height: 200px;
+    box-sizing: border-box;
+    padding-right: 8px;
+    margin-bottom: 30px;
+}
+.offer .center-1{
+    width: 1200px;
+    height: 190px;
+    margin: 0 43px 0 68px;
+    margin-top: 5px;
+    text-align: center;
+    
+    
+}
+
+.offer .center-1 a .offer-1{
+    width: 180px;
+    height: 180px;
+    display: inline-block;
+    margin-top: 2px;
+    transition: 300ms;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-right: 14px;
+}
+.offer .center-1 a .offer-1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 300ms;
+    margin:10%;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.offer .center-1 a .offer-1 img:hover{
+transform: scale(1.1,1.1);
+filter: contrast(90%);
+}

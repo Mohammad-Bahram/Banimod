@@ -1,0 +1,164 @@
+header nav{
+    width: inherit;
+    height:30px;
+    text-align: right;
+    padding-right: 15px;
+    box-sizing: border-box;
+}
+header nav .nav1{
+    width: 1200px;
+    height: inherit;
+    margin: 0 30px;
+    text-align: right;
+    
+    
+    
+}
+.nav1 div{
+    display: inline-block;
+    font-size: 14px;
+    padding: 0px 8px;
+    vertical-align: top;
+    
+}
+.nav1 .submenu{
+  width: 1210px;
+  height:66.5vh;
+  background-color: #FFFFFF;
+  position: absolute;
+  margin-right: 8px;
+  margin-top: 5px;
+  overflow: auto;
+  direction: ltr;
+  display: none;
+  padding-left: 0;
+  padding-right: 0;
+  box-shadow: 0px 10px 10px #2b2b2b;
+  border-radius: 15px;
+}
+.nav1 .menu:hover .submenu{
+  display: block;
+}
+.nav1 .submenu .sub-right{
+  width: 118px;
+  background-color: #FFFFFF;
+  position: absolute;
+  right: 0;
+  padding: 0;
+  margin-right: 1px;
+
+
+}
+.nav1 .submenu .submenu-1{
+text-align: center;
+border-left: 1px solid#2b2b2b2f;
+width: 100%;
+background-color: #FFFFFF;
+display: block;
+position: unset;
+padding: 0;
+
+
+}
+.nav1 .submenu .submenu-1 a{
+  color: #2b2b2b;
+  font-size: 12px;
+  vertical-align: middle;
+  padding: 0 !important;
+}
+.nav1 .submenu .submenu-1 i{
+  margin-left: 2px;
+  vertical-align: middle;
+  margin-right: 0;
+  font-size: 15px;
+}
+
+.nav1 .submenu .submenu-1 a:hover{
+  color: #00bf6f;
+  background-color: #F1F2F2;
+}
+.nav1 .submenu .submenu-2 a:hover{
+  color: #00bf6f;
+  background-color: unset;
+}
+.nav1 .submenu .submenu-1 .submenu-2{
+  width: 1040px;
+  height: 100%;
+  position: absolute;
+  background-color: #FFFFFF;
+  top: 0;
+  right: 100%;
+  text-align: right;
+  display: none;
+  font-weight: bold;
+  
+  
+}
+.nav1 .submenu .submenu-1:hover .submenu-2{
+  width: 1040px;
+  height: 100%;
+  background-color: #FFFFFF;
+  position: absolute;
+  top: 0;
+  right: 100%;
+  text-align: right;
+  display: block;
+}
+.submenu-3A{
+  margin-bottom: 15px;
+}
+.submenuCover{
+  margin-right: -10px;
+}
+.submenu3B{
+  position: absolute;
+  left: 620px;
+  top: 46px;
+  border-right: solid 3px #00bf6f ;
+}
+.submenu3B a{
+  font-size: 10px !important ;}
+.submenu-3{
+  display: block;
+  border-right: solid 3px #00bf6f ;
+  margin-bottom: 10px;
+  font-size: 10px !important ;
+}
+.nav1 div a{
+    font-size: 12px;
+    width: auto;
+    text-decoration: none;
+    color: #2b2b2b;
+    display: block;
+    line-height: 30px;
+    
+}
+.nav1 div a i{
+   
+     margin: 0 10px;
+    
+    vertical-align: middle;
+}
+.nav1 div a.A{
+    font-weight: bold;
+}
+.nav1 div a.A i{
+ margin: 0 10px;
+    font-size: 20px;
+    vertical-align: middle;
+}
+.nav1 a span{
+    border-left: #2b2b2b solid 1px;
+    margin: 0px 10px;
+    vertical-align: middle;
+    
+}
+.nav1 a.space span{
+    margin-left: -5px;
+    vertical-align: middle;
+}
+.nav1 a.space i{
+    
+    font-size: 15px;
+vertical-align: middle;
+}

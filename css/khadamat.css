@@ -1,0 +1,70 @@
+.khadamat{
+    width: inherit;
+    height: 275px;
+    margin: 0 auto;
+    padding-top: 1px;
+    box-sizing: border-box;
+    
+
+}
+.khadamat .khcenter{
+    width: 1200px;
+    height: 270px;
+    margin: 0 auto;
+    margin-top: 2.5px;
+    text-align: center;
+    position: relative;
+    margin-bottom: 70px;
+}
+.khadamat .khcenter .kh1{
+    display: inline-block;
+    width:20% ;
+    vertical-align: top;
+    height: inherit;
+    margin: 0 20px;
+    
+}
+.kh1-1 img{
+    width: 85%;
+    height: 200px;
+    object-fit: cover;
+    filter: opacity(0.08);
+    transition: 300ms;
+}
+.kh1-2 img {
+width: 100px;
+height: 98px;
+
+}
+.kh1-2{
+    position: relative;
+    top: 20px;
+    text-align: center;
+    z-index: 1;
+}
+.kh1-1 {
+    margin-top: -100px;
+    text-align: center;
+    width: 100%;
+    height: inherit;
+    position: relative;
+    top: 10px;
+    z-index: 0;
+    
+}
+.kh1-2 p{
+    width: 240px;
+    text-align: center;
+    height: 20px;
+    font-size: 13px;
+    font-weight: 600;
+    margin: 0 auto;
+    word-spacing: 3px ;
+
+}
+.kh1-2 h4{
+    margin-bottom: 8px;
+}
+.kh1:hover .kh1-1 img{
+filter: opacity(0.4);
+}

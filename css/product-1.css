@@ -1,0 +1,43 @@
+
+.product-1{
+    width: inherit;
+    height: 400px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 1px;
+    box-sizing: border-box;
+}
+.product-1 .product-1-1{
+    width: 1200px;
+    height: 380px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.product-1 .product-1-1 .right{
+    width: 65%;
+    height: inherit;
+    display: inline-block;
+    margin-left: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    
+}
+.product-1 .product-1-1 .right img{
+    width:100%;
+    height: inherit;
+    object-fit: cover;
+    border-radius: 10px;
+    
+}
+.product-1 .product-1-1 .left img{
+    width: 100%;
+    height: inherit;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.product-1 .product-1-1 .left{
+    width: 32%;
+    height: inherit;
+    display: inline-block;
+    border-radius: 10px;
+}

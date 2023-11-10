@@ -1,0 +1,68 @@
+.news{
+    width: 100%;
+    height: 370px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.news .center-news{
+    width: 1200px;
+    height: 280px;
+    margin: 0 auto;
+    margin-bottom: -20px;
+}
+.news .center-news .title{
+    width: 1200px;
+    height: 40px;
+    margin: 0 auto;
+}
+.news .center-news .title h3{
+    font-size: 22px;
+    line-height: 40px;
+}
+.news .center-news .swiper-slide{
+    background-color: unset;
+}
+.news .center-news .swiper-slide .slide{
+    display: block;
+    margin: 0 auto;
+    width: inherit;
+    border-radius: unset;
+    width: 270px;
+    height: 180px;
+    margin-bottom: 30px;
+}
+.news .center-news .swiper-slide .slide img{
+    border-radius: unset;
+    width: 100%;
+    height: inherit;
+    object-fit: cover;
+}
+.news .center-news .swiper-slide{
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
+.news .center-news .swiper-slide .explanation{
+    text-align: right;
+    padding-right: 10px;
+    transition: 300ms;
+}
+.news .center-news .swiper-slide .explanation a{
+    text-decoration: none;
+    color: #2b2b2b;
+
+}
+.slide:hover ~ .explanation a h5{
+    color: #00bf6f;
+}
+.explanation:hover a h5{
+    color: #00bf6f;
+}
+.explanation a h5{
+    transition: 300ms;
+}
+.mySwiper-news{
+    height: inherit;
+    width: 1200px;
+}
+

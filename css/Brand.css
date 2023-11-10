@@ -1,0 +1,68 @@
+.Brand{
+    width: inherit;
+    height: 360px;
+    background-color: #F9F9F9;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 1px;
+    box-sizing: border-box;
+    margin-bottom: 100px;
+}
+.Brand .centerBrand{
+    width: 1200px;
+    height: 120px;
+    background-color: #F9F9F9;
+    margin: 0 auto;
+    text-align: center;
+    
+
+}
+.Brand .Btitle{
+    width: 1200px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 67px;
+}
+.swiper-slide{
+    width: 70px;
+    height: 80px;
+    
+    text-align: center;
+    background-color: #F9F9F9;
+}
+.swiper-slide img{
+    width: 50%;
+    height: 70px;
+    object-fit: cover;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+.seeAll{
+    width:1200px;
+    margin: 0 auto;
+}
+.Brand .seeAll a{
+    width: 270px;
+    height: 50px;
+    display: block;
+    background-color: #666;
+    text-decoration: none;
+    margin:0 auto;
+    font-size: 18px;
+    margin-top:4px;
+    line-height: 50px;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    color: #00bf6f;
+    border-radius: 40px;
+    border: 1px solid #6666665e;
+    transition: 300ms;
+    font-weight: bold;
+}
+.Brand .seeAll a:hover{
+border-color: #00bf6f;
+}
+.Brand .Btitle h2{
+    font-size: 26px;
+}

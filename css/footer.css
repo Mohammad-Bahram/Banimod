@@ -1,0 +1,219 @@
+footer{
+    width: inherit;
+    height: 600px;
+    border-top: 5px solid #F9F9F9;
+}
+footer .footer-1{
+    width: 1200px;
+    height: 230px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    margin-top: 45px;
+    text-align: right;
+    
+}
+footer .footer-1 h3{
+    font-size: 16px;
+    color: gray;
+    margin-bottom: 25px;
+}
+footer .footer-1 a{
+    text-decoration: none;
+    color: #2b2b2b;
+    margin-bottom: 20px;
+    transition: 300ms;
+    font-size: 14px;
+    
+}
+footer .footer-1 .footer-1-1,.footer-1-2,.footer-1-3,.footer-1-4,.footer-1-5{
+    width: 200px;
+    height: inherit;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    margin-left: 30px;
+    vertical-align: top;
+    text-align: right;
+
+}
+footer .footer-1 .footer-1-4 span{
+    font-size: 13px;
+}
+footer .footer-1 .footer-1-4  a{
+    font-weight: bold;
+    font-size: 13px;
+}footer .footer-1 .footer-1-4  a:hover{
+    color: #1AC977;
+    
+}
+footer .footer-1 .footer-1-4 div{
+    display: inline-block;
+    margin-bottom: 25px;
+}
+footer .footer-1 .footer-1-4 h3{
+    margin-bottom: 10px;
+}
+footer .footer-1 .footer-1-4{
+    height: 170px !important;
+}
+footer .footer-1 .footer-1-4 p{
+font-size: 14px;
+margin-bottom: 20px;
+}
+footer .hvr-underline-from-center:before{
+    background-color: #1AC977;
+    height: 1px;
+    font-size: 14px;
+}
+footer .hvr-underline-from-center:hover{
+    color: #1AC977;
+}
+footer .footer-1 .footer-1-5 svg{
+    width: 95%;
+    margin-bottom: 20px;
+}
+footer .footer-1 .footer-1-5 a button{
+    all: unset;
+    background-color: white;
+    width: 95%;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 25px;
+    border:#1AC977 solid 1px;
+    color: #1AC977;
+    transition: 300ms;
+    margin-bottom: 20px;
+    
+}
+footer .footer-1 .footer-1-5{
+text-align: center !important;
+}
+footer .footer-1 .footer-1-5 a:hover button{
+color: #07a15a;
+border-color: #07a15a;
+}
+.footer-1-5 .social{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    margin-left: 5px;
+    border: #2b2b2b solid 1px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    line-height: 50px;
+    transition: 100ms;
+}
+.footer-1-5{
+    position: relative;
+}
+.footer-1-5 .social i{
+    font-size: 25px;
+    transition: 100ms;
+}
+.footer-1-5 .social:hover i{
+    color:#1AC977 ;
+}
+.footer-1-5 .social:hover{
+    border-color: #1AC977;
+}
+.footer-1-5 .banimag{
+    
+    position: absolute;
+    right: -2px;
+    top: 83%;
+}
+.footer-2{
+    width: 1200px;
+    height: calc(600px - 278px);
+    margin: 0 auto;
+    text-align: right;
+}
+.footer-2 .footer-2-1{
+    width: 690px;
+    height: inherit;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 25px;
+    box-sizing: border-box;
+    position: relative;
+}
+.footer-2 .footer-2-1 .head{
+    margin-bottom: 15px; color: gray;
+}
+.footer-2-1 p a{
+    color: #1AC977;
+    text-decoration: none; 
+}
+.footer-2-1 p{
+    line-height: 35px;
+    text-align: justify;
+    background-color: rgb(255, 255, 255);
+}
+.footer-2-1 label{
+    color: #1AC977;
+    cursor: pointer;
+}
+.footer-2-1 .copyRight{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+#read-more , #close-1{
+    display: none;
+}
+.footer-2-1 .more{
+    display: none;
+}
+.footer-2-1 .more div{
+    display: block;
+    margin-top: 35px;
+}
+    
+#read-more:checked ~ div{
+    display: block;
+    
+    background-color: rgb(255, 255, 255);
+}
+
+.footer-2-1 .more{
+    position: absolute;
+    background-color: rgb(250, 250, 247);
+    bottom: -345%;
+    display: none;
+}
+.footer-2 .footer-2-2{
+    width: 500px;
+    height: inherit;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    padding-top: 30px;
+    box-sizing: border-box;
+    padding-right: 10px;
+}
+.footer-2-2 .footer-2-2-1,.footer-2-2-2,.footer-2-2-3,.footer-2-2-4
+{
+    width: 100px;
+    height: 100px;
+    margin-left: 15px;
+    display: inline-block;
+    margin-top: 55px;
+    vertical-align: top;
+
+
+}
+.footer-2-2 .footer-2-2-1 a img,.footer-2-2-2 a img,.footer-2-2-3 a img,.footer-2-2-4 a img{
+    width: 100%;
+    height: inherit;
+    object-fit: cover;
+}
+.footer-2-2 .footer-2-2-1{
+    margin-top: 65px !important;
+}
+.footer-1-4{
+    margin-left: 70px;
+}
+.footer-1-5{
+    margin-left: 0;
+}
