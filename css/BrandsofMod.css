@@ -1,0 +1,29 @@
+.BrandsMod{
+    width: inherit;
+    height: 240px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.BrandsCenter{
+    width: 1200px;
+    height: inherit;
+    margin: 0 auto;
+}
+.BrandsCenter h2{
+    margin-bottom: 25px;
+}
+.BrandsCenter div{
+    width: 125px;
+    height: 135px;
+    display: inline-block;
+    transition: 300ms;
+    margin-left: 3.5px;
+
+}
+.BrandsCenter div img{
+    width: 100%;
+}
+.BrandsCenter div:hover{
+    transform: scale(1.05,1.05);
+}
