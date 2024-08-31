@@ -1,5 +1,5 @@
 .all{
-  margin: 0 auto
+  margin: 0 auto !important;
 }
 @import"./header.css";
 @import "./setting.css";
